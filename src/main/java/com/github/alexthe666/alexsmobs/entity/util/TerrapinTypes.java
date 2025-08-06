@@ -17,7 +17,7 @@ public enum TerrapinTypes {
 
     private final ResourceLocation texture;
     private final float weight;
-    private static final int[] DEFAULT_COLORS = new int[]{0xab4935, 0xc2a629, 0x363533, 0xebe9e1, 0x60a372, 0xc29b72};
+    private static final int[] DEFAULT_COLORS = new int[]{0xab4935, 0xc2a629, 0x363533, 0xebe9e1, 0x60a372, 0x7372c2};
 
     TerrapinTypes(ResourceLocation texture, float weight) {
         this.texture = texture;
